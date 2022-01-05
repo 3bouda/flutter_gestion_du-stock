@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: new ThemeData(scaffoldBackgroundColor: Colors.amber[50]),
-      initialRoute: '/',
+      initialRoute: '/login',
       routes: {
         '/': (context) => const MyHome(),
         '/home': (context) => const MyHome(),
